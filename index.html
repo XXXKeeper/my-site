@@ -8,10 +8,15 @@
   </head>
 
   <body>
+    <script src="https://kit.fontawesome.com/6d34eed12f.js" crossorigin="anonymous"></script>
     <header class="page-header">
-        <div class="container">
-      Контакты в шапке: Телефон: +7xxx xxx xx x2, Instagram, ВК, Telegram.
-        </div>
+      <div class="container">
+        <button type="submit" class="btn">Светлая тема</button>
+      </div>
+      <div class="container">
+        <a class="header-phone dark-header" href="tel:+79612377022"><i class="fas fa-phone-alt"></i> +79612377022</a>
+        <a class="header-email dark-header" href="mailto:ikeeper96@gmail.com"><i class="far fa-envelope"></i> ikeeper96@gmail.com</a>
+      </div>
     </header>
 
     <section class="hero-image">
@@ -24,9 +29,23 @@
     <section class="intro">
         <div class="container">
           <h2 class="subheading">Давайте познакомимся</h2>
+          <figure class="user-image">
+              <img src="files/user.jpg" alt="Фотография" height="536">
+          </figure>
           <h3>Пара слов о себе</h3>
           <p>Текст с парой слов о себе.</p>
           <h3>Чем могу быть полезен</h3>
+          <div class="skills">
+              <h3>Мои навыки</h3>
+              <dl class="skills-list">
+                  <dt class="skill-html">HTML</dt>
+                  <dd class="level"><div style="width: 100%;">100%</div></dd>
+                  <dt class="skill-css">CSS</dt>
+                  <dd class="level"><div style="width: 100%;">100%</div></dd>
+                  <dt class="skill-js">JavaScript</dt>
+                  <dd class="level"><div style="width: 50%;">100%</div></dd>
+              </dl>
+          </div>
           <p>Текст о том, чем могу быть полезен.</p>
         </div>
     </section>
@@ -42,11 +61,12 @@
           <p>Статический блог про обучение HTML и CSS.</p>
         </div>
     </section>
-
     <footer class="page-footer">
         <div class="container">
-          Контакты в подвале
+            <a class="footer-phone dark-header" href="tel:+79612377022"><i class="fas fa-phone-alt"></i> +79612377022</a>
+            <a class="footer-email dark-header" href="mailto:ikeeper96@gmail.com"><i class="far fa-envelope"></i> ikeeper96@gmail.com</a>
         </div>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
